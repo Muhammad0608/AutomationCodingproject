@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" name="Function(failed)">
+    <classes>
+      <class name="pro_training.Automation.Amazon">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="d"/>
+        </methods>
+      </class> <!-- pro_training.Automation.Amazon -->
+    </classes>
+  </test> <!-- Function(failed) -->
+</suite> <!-- Failed suite [Amazon] -->

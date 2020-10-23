@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon">
+<parameter name="browser" value="Chrome"></parameter>
+<!-- <listeners>
+  <listener class-name="Comonlistners.Listner"></listener>
+</listeners>-->
+<test name="Function">
+<groups>
+<run>
+<include name="Regression"></include>
+</run>
+</groups>
+<classes>
+<class  name="pro_training.Automation.Group">
+</class>
+<!--  <class  name="pro_training.Automation.Amazon_6">
+</class>-->
+</classes>
+</test>
+</suite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-18T22:07:52 EDT" name="Amazon" finished-at="2020-10-18T22:07:52 EDT" duration-ms="49">
+    <groups>
+      <group name="Sdanit">
+        <method signature="Group.test2()[pri:0, instance:pro_training.Automation.Group@4c15e7fd]" name="test2" class="pro_training.Automation.Group"/>
+      </group> <!-- Sdanit -->
+      <group name="Regression">
+        <method signature="Group.test2()[pri:0, instance:pro_training.Automation.Group@4c15e7fd]" name="test2" class="pro_training.Automation.Group"/>
+        <method signature="Group.test3()[pri:0, instance:pro_training.Automation.Group@4c15e7fd]" name="test3" class="pro_training.Automation.Group"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2020-10-18T22:07:52 EDT" name="Function" finished-at="2020-10-18T22:07:52 EDT" duration-ms="49">
+      <class name="pro_training.Automation.Group">
+        <test-method signature="test2()[pri:0, instance:pro_training.Automation.Group@4c15e7fd]" started-at="2020-10-18T22:07:52 EDT" name="test2" finished-at="2020-10-18T22:07:52 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:pro_training.Automation.Group@4c15e7fd]" started-at="2020-10-18T22:07:52 EDT" name="test3" finished-at="2020-10-18T22:07:52 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- pro_training.Automation.Group -->
+    </test> <!-- Function -->
+  </suite> <!-- Amazon -->
+</testng-results>
